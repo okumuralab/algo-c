@@ -6,7 +6,7 @@
 typedef enum {FALSE, TRUE} boolean;
 typedef struct {  int left, right;  } interval;
 
-int cmp(void *x, void *y)
+int cmp(const void *x, const void *y)
 {
     if (((interval *)x)->left  > ((interval *)y)->left)  return  1;
     if (((interval *)x)->left  < ((interval *)y)->left)  return -1;

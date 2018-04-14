@@ -6,7 +6,7 @@
 int main(void)
 {
     int k, x, r;
-    char side[2][3] = { "左", "右" };
+    char *side[2] = { "左", "右" };
 
     printf("何グラムをはかりますか? ");  scanf("%d", &x);
     printf("はかるものを左の皿に乗せてください.\n");
