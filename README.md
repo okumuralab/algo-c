@@ -2,6 +2,8 @@
 
 [全ソースコード](src/)［文字コード：UTF-8］
 
+ソースコードについては[何の権利も主張しません](https://creativecommons.org/publicdomain/zero/1.0/legalcode.ja)ので自由にお使いください。
+
 ## リンク
 
 * 技術評論社の[『［改訂新版］C言語による標準アルゴリズム事典』のページ](http://gihyo.jp/book/2018/978-4-7741-9690-9)
