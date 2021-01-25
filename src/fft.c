@@ -77,7 +77,7 @@ int fft(int n, double x[], double y[])
         if (sintbl != NULL) free(sintbl);
         if (bitrev != NULL) free(bitrev);
         if (n == 0) return 0;  /* 記憶領域を解放した */
-        sintbl = malloc((n + n4) * sizeof(double));
+        sintbl = malloc((n - n4) * sizeof(double));
         bitrev = malloc(n * sizeof(int));
         if (sintbl == NULL || bitrev == NULL) {
             fprintf(stderr, "記憶領域不足\n");  return 1;
